@@ -12,6 +12,7 @@
 		0C409C75220A1DD200F232D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C409C73220A1DD200F232D0 /* Main.storyboard */; };
 		0C409C77220A1DD300F232D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C409C76220A1DD300F232D0 /* Assets.xcassets */; };
 		0C409C7A220A1DD300F232D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C409C78220A1DD300F232D0 /* LaunchScreen.storyboard */; };
+		963C0309BFBFBE7D89182C66 /* Pods_MaakMaak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2494064553EE1F95DA9F6520 /* Pods_MaakMaak.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		0C409C76220A1DD300F232D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C409C79220A1DD300F232D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C409C7B220A1DD300F232D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2494064553EE1F95DA9F6520 /* Pods_MaakMaak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaakMaak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA8552889BC798DDCCE197A /* Pods-MaakMaak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaakMaak.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaakMaak/Pods-MaakMaak.release.xcconfig"; sourceTree = "<group>"; };
+		E154A782D1379037F7347FE1 /* Pods-MaakMaak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaakMaak.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaakMaak/Pods-MaakMaak.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963C0309BFBFBE7D89182C66 /* Pods_MaakMaak.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				0C409C6E220A1DD200F232D0 /* MaakMaak */,
 				0C409C6D220A1DD200F232D0 /* Products */,
+				A2295F986FDC8BC11981E7EA /* Pods */,
+				C6BFD3A10D09F02AA73F13C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +103,23 @@
 			name = StoryBoards;
 			sourceTree = "<group>";
 		};
+		A2295F986FDC8BC11981E7EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E154A782D1379037F7347FE1 /* Pods-MaakMaak.debug.xcconfig */,
+				BDA8552889BC798DDCCE197A /* Pods-MaakMaak.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6BFD3A10D09F02AA73F13C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2494064553EE1F95DA9F6520 /* Pods_MaakMaak.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0C409C7E220A1DD300F232D0 /* Build configuration list for PBXNativeTarget "MaakMaak" */;
 			buildPhases = (
+				BCC34ADEC80CB571A907CAC2 /* [CP] Check Pods Manifest.lock */,
 				0C409C68220A1DD200F232D0 /* Sources */,
 				0C409C69220A1DD200F232D0 /* Frameworks */,
 				0C409C6A220A1DD200F232D0 /* Resources */,
+				C6E1D384940115BFCF58CCE5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +187,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BCC34ADEC80CB571A907CAC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaakMaak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6E1D384940115BFCF58CCE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MaakMaak/Pods-MaakMaak-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaakMaak/Pods-MaakMaak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C409C68220A1DD200F232D0 /* Sources */ = {
@@ -312,6 +387,7 @@
 		};
 		0C409C7F220A1DD300F232D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E154A782D1379037F7347FE1 /* Pods-MaakMaak.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -329,6 +405,7 @@
 		};
 		0C409C80220A1DD300F232D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA8552889BC798DDCCE197A /* Pods-MaakMaak.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

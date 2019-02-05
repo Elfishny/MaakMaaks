@@ -1,0 +1,6 @@
+framework module Pods_MaakMaak {
+  umbrella header "Pods-MaakMaak-umbrella.h"
+
+  export *
+  module * { export * }
+}

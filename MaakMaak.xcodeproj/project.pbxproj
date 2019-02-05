@@ -61,7 +61,6 @@
 				0C409C6F220A1DD200F232D0 /* AppDelegate.swift */,
 				0C409C71220A1DD200F232D0 /* ViewController.swift */,
 				0C409C76220A1DD300F232D0 /* Assets.xcassets */,
-				0C409C78220A1DD300F232D0 /* LaunchScreen.storyboard */,
 				0C409C7B220A1DD300F232D0 /* Info.plist */,
 			);
 			path = MaakMaak;
@@ -91,6 +90,7 @@
 		0C409C84220A1E4000F232D0 /* StoryBoards */ = {
 			isa = PBXGroup;
 			children = (
+				0C409C78220A1DD300F232D0 /* LaunchScreen.storyboard */,
 				0C409C73220A1DD200F232D0 /* Main.storyboard */,
 			);
 			name = StoryBoards;

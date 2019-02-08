@@ -2,7 +2,14 @@
     "home" : "Home",
     "profile" : "My Profile",
     "myCars" : "My Car",
-  
+    "changeLanguage" : "Change Language?",
+    "changeLanguageMessage" : "Are you sure to change language",
+    "arabic" : "Arabic",
+    "english" : "English",
+    "change" : "Change",
+     "cancel" : "Cancel",
+     "NamePlaceHolder" : "Enter your name",
+     "email" : "email",
     
 }
 

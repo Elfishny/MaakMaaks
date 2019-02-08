@@ -13,6 +13,7 @@ pod 'IBLocalizable'
 pod 'SkyFloatingLabelTextField'
 
  pod 'SVProgressHUD'
+pod 'Localize-Swift'
 
 
 end

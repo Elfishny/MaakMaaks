@@ -1,6 +1,17 @@
 {
     "home" : "الرئيسية",
     "profile" : "صفحتي",
+    "change" : "تغيير",
+    "forgetPassword"  : "إستعادة كلمة المرور",
+    
+    "changeLanguage" : "تغيير اللغة؟",
+    "changeLanguageMessage" : "هل انت متاكد من تغير اللغه",
+    
+    "language" : "تغيير اللغة",
+     "change" : "تغيير",
+      "cancel" : "إلغاء",
+      "NamePlaceHolder" : "ادخل اسمك",
+       "email" : "البريد الاكتروني"
   
 }
 

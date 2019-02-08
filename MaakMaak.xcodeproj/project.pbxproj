@@ -12,6 +12,9 @@
 		0C409C75220A1DD200F232D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C409C73220A1DD200F232D0 /* Main.storyboard */; };
 		0C409C77220A1DD300F232D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C409C76220A1DD300F232D0 /* Assets.xcassets */; };
 		0C409C7A220A1DD300F232D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C409C78220A1DD300F232D0 /* LaunchScreen.storyboard */; };
+		180AEC62220E0A6C0003C1A6 /* MYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AEC61220E0A6C0003C1A6 /* MYViewController.swift */; };
+		180AEC64220E116C0003C1A6 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AEC63220E116C0003C1A6 /* LanguageManager.swift */; };
+		180AEC67220E16010003C1A6 /* HomeVendrVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180AEC66220E16000003C1A6 /* HomeVendrVC.swift */; };
 		18EBF1FF220B82AF008D4F36 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18EBF1F9220B82AF008D4F36 /* Localizable.strings */; };
 		18EBF200220B82AF008D4F36 /* lang-en.json in Resources */ = {isa = PBXBuildFile; fileRef = 18EBF1FC220B82AF008D4F36 /* lang-en.json */; };
 		18EBF201220B82AF008D4F36 /* lang-ar.json in Resources */ = {isa = PBXBuildFile; fileRef = 18EBF1FE220B82AF008D4F36 /* lang-ar.json */; };
@@ -53,6 +56,9 @@
 		0C409C76220A1DD300F232D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C409C79220A1DD300F232D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C409C7B220A1DD300F232D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180AEC61220E0A6C0003C1A6 /* MYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MYViewController.swift; sourceTree = "<group>"; };
+		180AEC63220E116C0003C1A6 /* LanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		180AEC66220E16000003C1A6 /* HomeVendrVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVendrVC.swift; sourceTree = "<group>"; };
 		18EBF1FA220B82AF008D4F36 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		18EBF1FB220B82AF008D4F36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		18EBF1FC220B82AF008D4F36 /* lang-en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "lang-en.json"; sourceTree = "<group>"; };
@@ -146,7 +152,9 @@
 		0C409C82220A1E0F00F232D0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				180AEC65220E15EF0003C1A6 /* Vender */,
 				0C409C71220A1DD200F232D0 /* ViewController.swift */,
+				180AEC61220E0A6C0003C1A6 /* MYViewController.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -167,6 +175,14 @@
 			name = StoryBoards;
 			sourceTree = "<group>";
 		};
+		180AEC65220E15EF0003C1A6 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				180AEC66220E16000003C1A6 /* HomeVendrVC.swift */,
+			);
+			name = Vender;
+			sourceTree = "<group>";
+		};
 		18EBF1F6220B8268008D4F36 /* SupportFile */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +196,7 @@
 		18EBF1F7220B8285008D4F36 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				180AEC63220E116C0003C1A6 /* LanguageManager.swift */,
 				18EBF20F220B8332008D4F36 /* Common */,
 				18EBF22B220B8333008D4F36 /* Constant */,
 				18EBF206220B8332008D4F36 /* Country */,
@@ -460,6 +477,7 @@
 				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
 				"${BUILT_PRODUCTS_DIR}/IBLocalizable/IBLocalizable.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Localize-Swift/Localize_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
@@ -472,6 +490,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBLocalizable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
@@ -494,11 +513,14 @@
 				18EBF23A220B8333008D4F36 /* UITextField.swift in Sources */,
 				18EBF231220B8333008D4F36 /* SharedData.swift in Sources */,
 				18EBF23B220B8333008D4F36 /* UIText.swift in Sources */,
+				180AEC64220E116C0003C1A6 /* LanguageManager.swift in Sources */,
 				18EBF239220B8333008D4F36 /* UIColor.swift in Sources */,
 				18EBF248220B8333008D4F36 /* APIConstants.swift in Sources */,
+				180AEC62220E0A6C0003C1A6 /* MYViewController.swift in Sources */,
 				18EBF233220B8333008D4F36 /* DBController.swift in Sources */,
 				18EBF235220B8333008D4F36 /* AppCommon.swift in Sources */,
 				0C409C72220A1DD200F232D0 /* ViewController.swift in Sources */,
+				180AEC67220E16010003C1A6 /* HomeVendrVC.swift in Sources */,
 				18EBF242220B8333008D4F36 /* LocalizableUISearchBar.swift in Sources */,
 				18EBF236220B8333008D4F36 /* Utilities.swift in Sources */,
 				0C409C70220A1DD200F232D0 /* AppDelegate.swift in Sources */,

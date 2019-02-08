@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,15 @@
 		0C6A587093E7DCD17C8BC7A70021D2EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E886B8A5323A225031593C734420F7 /* CoreGraphics.framework */; };
 		0DEF171E69143A748430D321ED14BCF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749ADD089E805C2D7E7DF8BD44F537E3 /* Foundation.framework */; };
 		158E0CB2694B721BEFB8F73BB9E6BC4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749ADD089E805C2D7E7DF8BD44F537E3 /* Foundation.framework */; };
+		18B34AE7220E4E6A00EA70D9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */; };
+		18B34AE8220E4E6C00EA70D9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */; };
+		18B34AE9220E4E6D00EA70D9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */; };
+		18B34AEA220E4E6E00EA70D9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */; };
+		18B34AEB220E4E6F00EA70D9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */; };
+		18B34AEC220E4E7000EA70D9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */; };
+		18B34AED220E4E7000EA70D9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */; };
+		18B34AEE220E4E7100EA70D9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */; };
+		18B34AEF220E4E7200EA70D9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */; };
 		1E5AF6CC512F48FC06EADDBAEFE7C833 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288AA9F06082D3C82E1B23CCD307608B /* IQToolbar.swift */; };
 		1EE782004A5699F32EE4F017A2937AF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749ADD089E805C2D7E7DF8BD44F537E3 /* Foundation.framework */; };
 		1FB59EF11B973746D41DBC4503D4ACF1 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66DFE9210F0FC488D95000F694A54FAD /* IQUIView+Hierarchy.swift */; };
@@ -179,7 +188,7 @@
 		05449CC6F03849C47E71D30CD19542C0 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		07B7574F6964C7A543E967CB9725FA0D /* LocalizableTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizableTextView.swift; path = IBLocalizable/Views/LocalizableTextView.swift; sourceTree = "<group>"; };
 		08B7CA0487E2AF4E6AD0D6794448A3D1 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
-		08DDA747A06312A4BC0A954EA16CF931 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08DDA747A06312A4BC0A954EA16CF931 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6C13769B7A4DBCE8E16F84E1943CAD /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
 		0AC19DF9E2D0EF3964008C8EAC248BA5 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
 		0B9C17E8C1FF8B0853E4DC50FB47A7AE /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
@@ -191,7 +200,7 @@
 		15E7A209700EE9809EC324F8837591C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		165E8D10B815ADBFDFE90CD351197CDC /* LocalizableUIBarItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizableUIBarItem.swift; path = IBLocalizable/Views/LocalizableUIBarItem.swift; sourceTree = "<group>"; };
 		18715590593C896461BB59EC7EE6BD6E /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		1B70C4D51B082237938A4FA279F921AC /* Localize_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Localize_Swift.framework; path = "Localize-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B70C4D51B082237938A4FA279F921AC /* Localize_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Localize_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D2DAD56FC8311FA4265D6CC8060DB9D /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
 		1D8D09A679627E5C77DC1F4DF86A3F45 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		1F849B68A923E7F7EA249867AEFCB811 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
@@ -203,9 +212,9 @@
 		2685B28E20D92FA757AF4AE3FC9AF460 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
 		288AA9F06082D3C82E1B23CCD307608B /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
 		28FC7DB9B6DB0A3E925FBEE34720267C /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
-		2946991BDAD4258705EADE54A145387B /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2946991BDAD4258705EADE54A145387B /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AF2F06EA815DF54A553E246AADE098B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2E2E8C9310D89351A189441EC179E737 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E2E8C9310D89351A189441EC179E737 /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		325C9C1A3E7A6FC5B0AD4360D5335715 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36776C2BA6129C62646C67E68A8679DD /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		37C50DBB030D05CD0A50000E72B091AE /* Localize-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Localize-Swift.modulemap"; sourceTree = "<group>"; };
@@ -219,7 +228,7 @@
 		53623AB2606ECAFFF2C25CFA828A37F3 /* IBLocalizable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IBLocalizable.xcconfig; sourceTree = "<group>"; };
 		54245C9D34C20893F56A5D8B489C08E4 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		5633E06E42DE91188C49ED4E1F71E4ED /* IBLocalizable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBLocalizable-umbrella.h"; sourceTree = "<group>"; };
-		5A75C928AF952EFAFF3CFC73DC83914D /* Pods_MaakMaak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MaakMaak.framework; path = "Pods-MaakMaak.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A75C928AF952EFAFF3CFC73DC83914D /* Pods_MaakMaak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaakMaak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B50D2F8F6A41CAFB3F05A02AC38C521 /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
 		5BB287BDDD58FC49CE4E61F36D9CA859 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		5C6E330588F618D34E54D7A2AE0BEF02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -245,8 +254,8 @@
 		7DD81A33E3AD6E424E310962BFD68978 /* IBLocalizable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IBLocalizable.modulemap; sourceTree = "<group>"; };
 		7E837B63B4AAF223C0F8556DDA585369 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
 		818A107D5D1C12C214DB30CD4668601E /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
-		8523C6B07088650B7D0B2285DF98924A /* IBLocalizable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IBLocalizable.framework; path = IBLocalizable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		869C8854461D845A2F01647473D2BA66 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8523C6B07088650B7D0B2285DF98924A /* IBLocalizable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBLocalizable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		869C8854461D845A2F01647473D2BA66 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8771FCA453A3703CE3DBEC964C83E6E9 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		89791A47692F791D19D37F5A8DF75A82 /* IBLocalizable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IBLocalizable-dummy.m"; sourceTree = "<group>"; };
 		8A4F6479114F30CAE35AC35AB2A5AF78 /* LocalizableNavigationItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizableNavigationItem.swift; path = IBLocalizable/Views/LocalizableNavigationItem.swift; sourceTree = "<group>"; };
@@ -257,7 +266,7 @@
 		918981D662276B5694EE743A232F640D /* Pods-MaakMaak-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MaakMaak-frameworks.sh"; sourceTree = "<group>"; };
 		929A1BF931E59723BB71140CCD0FDFB3 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
 		92BF6E98B2B9D3CB50116C67261BD81F /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95E5C024EBB952D62BC6B52E40E55499 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
 		9717F66C3D1046063C44A432CAFEB35B /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		9853681526A9C8D81DF13E1800D37CE9 /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
@@ -284,12 +293,12 @@
 		C5779622BD5181EF9F72746A4B507EA4 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
 		C589DEE8AFDB916C0AE32180ED94EC78 /* LocalizableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizableView.swift; path = IBLocalizable/Views/LocalizableView.swift; sourceTree = "<group>"; };
 		C8A7266B83F9A9DBE1BA1B6EA9DE2601 /* IBLocalizable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IBLocalizable-prefix.pch"; sourceTree = "<group>"; };
-		C8F307D4681FAC6EDC94C4E942C6532A /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F307D4681FAC6EDC94C4E942C6532A /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C94372E18C99B93D43E56F006C6BE05A /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		C9D3020A027781D93330A1C24D498498 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		CBE106AA14398E20EE1BEF1BAF974307 /* String+LocalizedBundleTableName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+LocalizedBundleTableName.swift"; path = "Sources/String+LocalizedBundleTableName.swift"; sourceTree = "<group>"; };
 		D3EDFCEE36EF5C98B8FDAB88798A32A8 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		D3FD0CFE6E3C0784E5480F0FBE661FF8 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FD0CFE6E3C0784E5480F0FBE661FF8 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D47ADCAC02395F8968FD97D84808936C /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
 		D701477E41802DDD05FA1B36CB566CA3 /* Localize-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Localize-Swift-umbrella.h"; sourceTree = "<group>"; };
 		D7C57A445E919D31D54AA674C14639A3 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
@@ -404,7 +413,6 @@
 				B19D9AA72759200D8A9F2FFFAD02E093 /* String+LocalizeTableName.swift */,
 				41065B580DC55B07394FE2037A1429C6 /* Support Files */,
 			);
-			name = "Localize-Swift";
 			path = "Localize-Swift";
 			sourceTree = "<group>";
 		};
@@ -536,7 +544,6 @@
 				8771FCA453A3703CE3DBEC964C83E6E9 /* SwiftyJSON.swift */,
 				978AE3E218BE9F60AA42A25AC9484A5D /* Support Files */,
 			);
-			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -560,7 +567,6 @@
 				63BBD137AB3A17F23318864758E6AC07 /* Resources */,
 				AC7A6A37F0A91CA2F37CD83B8CDD53DA /* Support Files */,
 			);
-			name = DropDown;
 			path = DropDown;
 			sourceTree = "<group>";
 		};
@@ -591,7 +597,6 @@
 				C589DEE8AFDB916C0AE32180ED94EC78 /* LocalizableView.swift */,
 				15482F4F714CB1610F16BB63839A2A02 /* Support Files */,
 			);
-			name = IBLocalizable;
 			path = IBLocalizable;
 			sourceTree = "<group>";
 		};
@@ -603,7 +608,6 @@
 				B48F981E7D342CCBBEA44E560AA10B35 /* UITextField+fixCaretPosition.swift */,
 				295DB1A90C492A479ECDB357A482DF92 /* Support Files */,
 			);
-			name = SkyFloatingLabelTextField;
 			path = SkyFloatingLabelTextField;
 			sourceTree = "<group>";
 		};
@@ -689,7 +693,6 @@
 				6A351B75450A14BC3F2AE7CA8169B3E6 /* Validation.swift */,
 				33DF8183DDB5E6B86A31389B2FC467BF /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -715,7 +718,6 @@
 				2057AF3742D140D582993BE815C21710 /* Resources */,
 				9329DC6C9847E31786DA8F4017ED2209 /* Support Files */,
 			);
-			name = IQKeyboardManagerSwift;
 			path = IQKeyboardManagerSwift;
 			sourceTree = "<group>";
 		};
@@ -755,7 +757,6 @@
 				4D757D53D01E771B40C13918520FDAA6 /* Resources */,
 				F140F4A0CB58925F3449C6ABA82EEA5D /* Support Files */,
 			);
-			name = SVProgressHUD;
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -1052,6 +1053,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B34AEF220E4E7200EA70D9 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1059,6 +1061,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B34AE7220E4E6A00EA70D9 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1066,6 +1069,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B34AED220E4E7000EA70D9 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1073,6 +1077,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B34AE9220E4E6D00EA70D9 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1080,6 +1085,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B34AEB220E4E6F00EA70D9 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1087,6 +1093,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B34AE8220E4E6C00EA70D9 /* Podfile in Resources */,
 				FF168F05DFAE21A2FFF0BD61B869E2BB /* DropDownCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1095,6 +1102,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B34AEC220E4E7000EA70D9 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1102,6 +1110,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B34AEA220E4E6E00EA70D9 /* Podfile in Resources */,
 				8565110EC39908F1DD099DABF5734E92 /* IQKeyboardManager.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1110,6 +1119,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B34AEE220E4E7100EA70D9 /* Podfile in Resources */,
 				27B7B22A3ED98ADC221030DA202922D4 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1387,11 +1397,7 @@
 				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
 				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
 				PRODUCT_NAME = SkyFloatingLabelTextField;
@@ -1423,11 +1429,7 @@
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;
@@ -1460,11 +1462,7 @@
 				INFOPLIST_FILE = "Target Support Files/IBLocalizable/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/IBLocalizable/IBLocalizable.modulemap";
 				PRODUCT_MODULE_NAME = IBLocalizable;
 				PRODUCT_NAME = IBLocalizable;
@@ -1495,11 +1493,7 @@
 				INFOPLIST_FILE = "Target Support Files/Localize-Swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Localize-Swift/Localize-Swift.modulemap";
 				PRODUCT_MODULE_NAME = Localize_Swift;
 				PRODUCT_NAME = Localize_Swift;
@@ -1530,11 +1524,7 @@
 				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
 				PRODUCT_MODULE_NAME = SwiftyJSON;
 				PRODUCT_NAME = SwiftyJSON;
@@ -1565,11 +1555,7 @@
 				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
 				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
 				PRODUCT_NAME = SkyFloatingLabelTextField;
@@ -1600,11 +1586,7 @@
 				INFOPLIST_FILE = "Target Support Files/DropDown/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
 				PRODUCT_MODULE_NAME = DropDown;
 				PRODUCT_NAME = DropDown;
@@ -1674,8 +1656,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1698,11 +1679,7 @@
 				INFOPLIST_FILE = "Target Support Files/Localize-Swift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Localize-Swift/Localize-Swift.modulemap";
 				PRODUCT_MODULE_NAME = Localize_Swift;
 				PRODUCT_NAME = Localize_Swift;
@@ -1734,11 +1711,7 @@
 				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
 				PRODUCT_MODULE_NAME = SVProgressHUD;
 				PRODUCT_NAME = SVProgressHUD;
@@ -1771,11 +1744,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-MaakMaak/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MaakMaak/Pods-MaakMaak.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1808,11 +1777,7 @@
 				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
 				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
 				PRODUCT_NAME = IQKeyboardManagerSwift;
@@ -1845,11 +1810,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-MaakMaak/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-MaakMaak/Pods-MaakMaak.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1883,11 +1844,7 @@
 				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
 				PRODUCT_MODULE_NAME = SVProgressHUD;
 				PRODUCT_NAME = SVProgressHUD;
@@ -1919,11 +1876,7 @@
 				INFOPLIST_FILE = "Target Support Files/IBLocalizable/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/IBLocalizable/IBLocalizable.modulemap";
 				PRODUCT_MODULE_NAME = IBLocalizable;
 				PRODUCT_NAME = IBLocalizable;
@@ -1955,11 +1908,7 @@
 				INFOPLIST_FILE = "Target Support Files/DropDown/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
 				PRODUCT_MODULE_NAME = DropDown;
 				PRODUCT_NAME = DropDown;
@@ -1990,11 +1939,7 @@
 				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
 				PRODUCT_MODULE_NAME = SwiftyJSON;
 				PRODUCT_NAME = SwiftyJSON;
@@ -2026,11 +1971,7 @@
 				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
 				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
 				PRODUCT_NAME = IQKeyboardManagerSwift;
@@ -2061,11 +2002,7 @@
 				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
 				PRODUCT_MODULE_NAME = Alamofire;
 				PRODUCT_NAME = Alamofire;

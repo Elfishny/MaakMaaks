@@ -35,7 +35,15 @@ class MYViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let image = UIImageView(frame: CGRect(x: 0, y: 0, width: 50, height: 15))
+        image.contentMode = .scaleAspectFit
+        image.image = UIImage(named: "Logo3_2")
+        
+//        let logo =
+//        let imageView = UIImageView(image:image)
+        self.navigationItem.titleView = image
+        
+        
         UIView.appearance().semanticContentAttribute = SharedData.SharedInstans.getLanguage() == "en" ? .forceLeftToRight : .forceRightToLeft
         
         
